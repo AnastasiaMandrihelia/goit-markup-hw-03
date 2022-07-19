@@ -7,31 +7,29 @@
 .display{
     display: none
 }
-li{
-    text-decoration: none;
-}
-   
 
 body {
     font-family:roboto ;
 }
+:root{
+    background: #E5E5E5;
+}
 
 .logo{
     font-family: 'Raleway', sans-serif;
-    font-style: italic;
-        font-weight: 700;
+    font-weight: 700;
         font-size: 26px;
-        line-height: 0,8;    
+        line-height: 1.19;    
         letter-spacing: 0.03em;
+        cursor: auto;
     
         color: #2196F3;
 }
 .studio{
     font-family: 'Raleway', sans-serif;
-    font-style: italic;
         font-weight: 700;
         font-size: 26px;
-        line-height: 0, 8;
+        line-height: 1.19;
         letter-spacing: 0.03em;
         color: black;
 
@@ -40,7 +38,7 @@ body {
    
         font-weight: 500;
         font-size: 14px;
-        line-height: 1,14;
+        line-height: 1.14;
         letter-spacing: 0.02em;
     
         color: #212121
@@ -53,7 +51,7 @@ color: #2196F3
     
         font-weight: 500;
         font-size: 14px;
-        line-height: 1,14;
+        line-height: 1.14;
         letter-spacing: 0.02em;
     
         color: #757575;
@@ -66,7 +64,7 @@ color: #2196F3
     
         font-weight: 500;
         font-size: 14px;
-        line-height: 1,14;
+        line-height: 1.14;
         letter-spacing: 0.02em;
     
         color: #757575;
@@ -81,7 +79,7 @@ color: #2196F3
 
     font-weight: 500;
     font-size: 16px;
-    line-height: 0,61;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
@@ -100,7 +98,7 @@ color: #2196F3
     
         font-weight: 900;
         font-size: 44px;
-        line-height: 1,36;
+        line-height: 1.36;
     
         text-align: center;
         letter-spacing: 0.06em;
@@ -120,7 +118,7 @@ color: #2196F3
   
         font-weight: 700;
         font-size: 16px;
-        line-height: 1,9;    
+        line-height: 1.87;    
         display: flex;
         align-items: center;
         text-align: center;
@@ -138,7 +136,7 @@ background: #2196F3;
 .about-title{
         font-weight: 700;
         font-size: 14px;
-        line-height: 1,14;
+        line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
     
@@ -146,18 +144,19 @@ background: #2196F3;
 }
 .subtitle{
 
-    font-weight: 400;
+  
     font-size: 14px;
-    line-height: 1,8;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 
     color: #757575;
 }
+
 .info-title{
     
         font-weight: 700;
         font-size: 36px;
-        line-height: 1,16;
+        line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
     
@@ -167,7 +166,7 @@ background: #2196F3;
     
         font-weight: 500;
         font-size: 16px;
-        line-height: 1,18;
+        line-height: 1.18;
        
     
         text-align: center;
@@ -177,9 +176,9 @@ background: #2196F3;
 }
 .name-info{
     
-        font-weight: 400;
+       
         font-size: 16px;
-        line-height: 1,18;
+        line-height: 1.18;
         /* identical to box height */
     
         text-align: center;
@@ -189,23 +188,19 @@ background: #2196F3;
 }
 .webstudio{
     font-family: 'Raleway', sans-serif;
-        font-style: italic;
+        font-style: 
         font-weight: 700;
         font-size: 26px;
-        line-height: 0, 8;
+        line-height: 1.19;
         letter-spacing: 0.03em;
        
         color: #FFFFFF;
 
 }
 .footer-link{
-    font-family: 'Roboto';
-        
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1,7;
-        /* or 171% */
     
+        font-size: 14px;
+        line-height: 1.71;
         letter-spacing: 0.03em;
     
       
@@ -214,10 +209,10 @@ background: #2196F3;
 }
 .footer-link-mail{
    
-        font-weight: 400;
+       
         font-size: 14px;
-        line-height: 1,7;
-        /* or 171% */
+        line-height: 1.71;
+        
     
         letter-spacing: 0.03em;
     
@@ -225,31 +220,30 @@ background: #2196F3;
 }
   .footer-link-tel{
     
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        /* or 171% */
+    font-size: 14px;
+    line-height: 1.71;
+   
     
-        letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);;  
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+    
     
   }
   .subject{
     
         font-weight: 700;
         font-size: 18px;
-        line-height: 2;
-        /* identical to box height, or 200% */
-    
+        line-height: 2.0
+
         letter-spacing: 0.06em;
     
         color: #212121;
   }
   .text{
-        font-weight: 400;
+        
         font-size: 16px;
-        line-height: 1,9;
-        /* identical to box height, or 188% */
+        line-height: 1.9;
     
         letter-spacing: 0.03em;
     
