@@ -104,7 +104,6 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     margin-left: auto;
-    margin-right: 50px;
   
     color: var(--secondary-text-color-dark);
   }
@@ -142,8 +141,7 @@
   
     color: var(--primary-text-color-dark);
   }
-  .btn:not(first-child) {
-    margin-left: 8px;}
+
   .btn:hover,
   .btn:focus {
     background: #2196f3;
@@ -155,6 +153,9 @@
     justify-content: center;
     margin-bottom: 50px;
    
+}
+.btn-inventory :not(first-child){
+margin-right: 8px;
 }
 
   .page-nav{
@@ -185,7 +186,7 @@
     margin-right: 50px;
 }
 .info{
-    display: flex;
+    
     padding-top: 0;
 } 
   .hero-title {
@@ -238,11 +239,9 @@ border-radius: 4px;
     
     display: flex;
     color: var(--primary-text-color-dark);
-    margin-right: 30px;
+   
   }
-  .about :not(last-child){
-    margin-right: 30px;
-  }
+  
   .about-title{
     font-style: normal;
 font-weight: 700;
@@ -252,6 +251,9 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-bottom: 10px;
 
+  }
+  .about-list :not(last-child){
+    margin-right: 30px;
   }
   .images-list{
    display: flex;
@@ -358,7 +360,6 @@ padding-bottom: 30px;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    margin-bottom: 20px;
     color: var(--accent-color);
 
   }
@@ -372,6 +373,9 @@ padding-bottom: 30px;
     cursor: auto;
   
     color: var(--primary-text-color-light);
+  }
+  .address{ 
+    margin-top: 20px;
   }
   .footer-link {
     font-style: normal;
