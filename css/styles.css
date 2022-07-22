@@ -184,9 +184,10 @@ margin-right: 8px;
 }
 .info-list{
     margin-right: 50px;
+   
 }
 .info{
-    
+    display: flex;
     padding-top: 0;
 } 
   .hero-title {
