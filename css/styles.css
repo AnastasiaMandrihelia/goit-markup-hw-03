@@ -58,7 +58,7 @@
     height: auto;
   }
   header{
-    border-bottom: 1px solid#2F303A;
+    border-bottom: 1px solid #ECECEC;
   }
   
   body {
@@ -154,8 +154,8 @@
     margin-bottom: 50px;
    
 }
-.btn-inventory :not(first-child){
-margin-right: 8px;
+.btn-inventory{
+  margin-right: 8px;
 }
 
   .page-nav{
@@ -179,14 +179,14 @@ margin-right: 8px;
     padding-top: 24px;
     padding-bottom: 24px;
   }
-.menu-list:not(last-child) {
+.menu-list:not(:last-child) {
     margin-right: 50px;
 }
 .info-list{
-    margin-right: 50px;
-   
+  margin-right: 50px;
+ 
 }
-.info{
+.navigation{
     display: flex;
     padding-top: 0;
 } 
@@ -203,7 +203,7 @@ margin-right: 8px;
   .hero {
     background: #2f303a;
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
     
   }
   .hero-title{
@@ -240,7 +240,7 @@ border-radius: 4px;
     
     display: flex;
     color: var(--primary-text-color-dark);
-   
+   gap: 30px;
   }
   
   .about-title{
@@ -253,9 +253,7 @@ text-transform: uppercase;
 margin-bottom: 10px;
 
   }
-  .about-list :not(last-child){
-    margin-right: 30px;
-  }
+  
   .images-list{
    display: flex;
    flex-wrap: wrap;
@@ -348,6 +346,7 @@ padding-bottom: 30px;
     padding-bottom: 20px;
     padding-left: 24px;
     padding-right: 24px;
+    margin: 4px;
     background: #FFFFFF;
   }
   .text {
@@ -375,9 +374,10 @@ padding-bottom: 30px;
   
     color: var(--primary-text-color-light);
   }
-  .address{ 
+  .page-footer{
     margin-top: 20px;
   }
+  
   .footer-link {
     font-style: normal;
     font-size: 14px;
