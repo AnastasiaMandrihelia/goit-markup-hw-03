@@ -210,7 +210,7 @@
     margin-bottom: 30px;
   }
   
-  .buttom {
+  .button {
     display: block;
     font-weight: 700;
     font-size: 16px;
@@ -231,8 +231,8 @@ border-radius: 4px;
     background: #2196f3;
     color: var(--primary-text-color-light);
   }
-  .buttom:hover,
-  .buttom:focus {
+  .button:hover,
+  .button:focus {
     background: #2196f3;
   }
  
