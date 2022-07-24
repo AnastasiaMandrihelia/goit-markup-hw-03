@@ -154,8 +154,8 @@
     margin-bottom: 50px;
    
 }
-.btn-inventory{
-  margin-right: 8px;
+.btn-inventory:not(:first-child){
+  margin-left: 8px;
 }
 
   .page-nav{
@@ -182,12 +182,12 @@
 .menu-list:not(:last-child) {
     margin-right: 50px;
 }
-.info-list{
+.info-list {
   margin-right: 50px;
  
 }
 .navigation{
-    display: flex;
+  display: flex;
     padding-top: 0;
 } 
   .hero-title {
@@ -250,8 +250,11 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-margin-bottom: 10px;
 
+
+  }
+  .info{
+    padding-top: 0;
   }
   
   .images-list{
@@ -269,6 +272,7 @@ margin-bottom: 10px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-transform: none;
+    margin-top: 10px;
     color: var(--secondary-text-color-dark);
   }
   
@@ -336,22 +340,23 @@ padding-bottom: 30px;
     font-size: 18px;
     line-height: 2;
    letter-spacing: 0.06em;
+   margin-bottom: 4px;
     color: var(--primary-text-color-dark);
   }
   .subject-text{
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
-    padding-top: 20px;
-    padding-bottom: 20px;
     padding-left: 24px;
     padding-right: 24px;
-    margin: 4px;
+    padding-top: 30px;
+padding-bottom: 30px;
     background: #FFFFFF;
   }
   .text {
     font-size: 16px;
     line-height: 1.87;
+    margin-top: 4px;
     color: var(--secondary-text-color-dark);
   }
   .footer-logo{
